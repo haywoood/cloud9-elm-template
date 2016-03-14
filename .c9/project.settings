@@ -1,0 +1,23 @@
+{
+    "ace": {
+        "@guessTabSize": true,
+        "@newLineMode": "unix",
+        "@useSoftTabs": true
+    },
+    "build": {
+        "@builder": "elm-make",
+        "@path": "/.c9/builders",
+        "@saveall": true
+    },
+    "general": {
+        "@stripws": true
+    },
+    "run": {
+        "@path": "/.c9/runners",
+        "@runner": "elm-reactor",
+        "configs": {
+            "@inited": true,
+            "json()": {}
+        }
+    }
+}

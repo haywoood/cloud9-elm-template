@@ -1,0 +1,8 @@
+// Create a custom Cloud9 runner - similar to the Sublime build system
+// For more information see https://docs.c9.io/custom_runners.html
+{
+    "cmd" : ["elm-reactor", "-p $PORT"],
+    "info" : "Started elm-reactor in $project_path",
+    "working_dir": "$project_path",
+    "selector": "source.ext"
+}
